@@ -20,7 +20,7 @@ const toggleDown = () => {
         
 
         <div className={`right-nav-bar ${menuOpen ? 'open' : ''}`}>
-      <p>Experience</p>
+      <p><a href=".experience-section">Experience</a></p>
       <p>Skills</p>
       <p>Projects</p>
       <p>Extracurriculars</p>
@@ -192,7 +192,10 @@ function Skills(){
     </div>
   );
 }
-<p>testing</p>
+<p>testing for shure
+  i said for sure
+</p>
+
 
 
 export default function App() {

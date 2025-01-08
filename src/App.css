@@ -4,6 +4,16 @@ html, * {
   
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #777; /* Optional for hover effect */
+}
+
+
 body{
   background-color: #F5F5F5;
 }
