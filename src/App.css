@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-  color: #777; /* Optional for hover effect */
+  color: #b5b5b5; 
 }
 
 
@@ -170,32 +170,98 @@ body{
   flex-shrink: 0;
 }
 
-.skill-box{
-  background-color: #ffffff;
+
+
+.skills-section {
   text-align: center;
-  padding: 8px;
-  max-width: 90px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(1, 1, 1, 0.3); 
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.skills-container{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 4 boxes per row on large screens */
-  gap: 20px; /* Space between boxes */
+.skills-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skills-row{
+  display: flex;
+  justify-content: center;
   padding: 20px;
   align-items: center;
-  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
+  
 }
 
-@media (max-width: 768px) {
-  .skills-container {
-    grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */
-  }
+.skill-box{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(1, 1, 1, 0.3); 
+  border-radius: 5px;
+  border: 1px solid #ccc; 
+  width: 150px;
+  height: 18px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+  justify-content: flex-start;
+  font-weight: 300;
+  
+
+
 }
 
-@media (max-width: 480px) {
-  .skills-container {
-    grid-template-columns: repeat(2, 1fr); /* 2 boxes per row */
-  }
+.skill-box .company-img{
+  margin-right: 10px;
+}
+/* For extra large screens (1200px and above) */ 
+@media (min-width: 1200px) { 
+  .skill-box { 
+    padding: 10px; 
+    margin: 15px 30px; 
+    min-height: 28px;
+  } 
+} 
+
+/* For large screens (992px to 1199px) */ 
+@media (min-width: 992px) and (max-width: 1199px) { 
+  .skill-box { 
+    padding: 10px; 
+    margin: 12px 25px; 
+    min-height: 15px;
+    
+  } 
+} 
+
+/* For medium screens (768px to 991px) */ 
+@media (min-width: 768px) and (max-width: 991px) { 
+  .skill-box { 
+    padding: 10px; 
+    margin: 10px 20px; 
+    min-height: 15px;
+    
+  } 
+} 
+
+/* For small screens (480px to 767px) */ 
+@media (min-width: 480px) and (max-width: 767px) { 
+  .skill-box { 
+    padding: 10px; 
+    margin: 8px 15px; 
+    min-height: 25px;
+    
+  } 
+} 
+
+/* For extra small screens (below 480px) */ 
+@media (max-width: 479px) {
+   .skill-box { 
+    padding: 10px; 
+    margin: 6px 10px;
+    min-height: 25px;
+    
+   }
 }

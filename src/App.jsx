@@ -172,29 +172,85 @@ function Experience() {
   );
 }
 
-function Skills(){
-  return(
+function Skills() {
+  return (
     <div className="skills-section">
       <h2 className="skills-heading">Skills</h2>
-      <div className="skills-container">
-        <div className="skill-box">Skill 1</div>
-        <div className="skill-box">Skill 2</div>
-        <div className="skill-box">Skill 3</div>
-        <div className="skill-box">Skill 4</div>
-        <div className="skill-box">Skill 5</div>
-        <div className="skill-box">Skill 6</div>
-        <div className="skill-box">Skill 7</div>
-        <div className="skill-box">Skill 8</div>
+
+      <div className="skills-row">
+        <div className="skill-box">
+          <img
+          src="https://img.icons8.com/?size=100&id=122637&format=png&color=000000"
+          alt="react logo"
+          className="company-img"
+        />
+        React.js
+        </div>
+        
+        <div className="skill-box">
+        <img
+          src=" https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+          alt="react logo"
+          className="company-img"
+        />
+        Python</div>
+
+        <div className="skill-box">
+        <img
+          src="https://img.icons8.com/?size=100&id=38294&format=png&color=000000"
+          alt="react logo"
+          className="company-img"
+        />
+        Java</div>
       </div>
 
+      <div className="skills-row">
+        <div className="skill-box">
+        <img
+          src="https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000"
+          alt="react logo"
+          className="company-img"
+        />
+        CSS</div>
+        <div className="skill-box">
+        <img
+          src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+          alt="react logo"
+          className="company-img"
+        />
+        HTML</div>
+        <div className="skill-box">
+        <img
+          src="https://img.icons8.com/?size=100&id=ldQqWiIRv9bc&format=png&color=000000"
+          alt="react logo"
+          className="company-img"
+        />
+        Bootstrap</div>
+      </div>
 
-
+      <div className="skills-row">
+        <div className="skill-box">
+        <img
+          src="https://img.icons8.com/?size=100&id=beYUNPWBUGT1&format=png&color=000000"
+          alt="react logo"
+          className="company-img"
+        />
+        SwiftUI</div>
+        <div className="skill-box">
+        <img
+          src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+          alt="react logo"
+          className="company-img"
+        />
+        JavaScript</div>
+        <div className="skill-box">Skill 9</div> {/* Added a ninth skill to keep the layout consistent */}
+      </div>
     </div>
   );
 }
-<p>testing for shure
-  i said for sure
-</p>
+
+
+
 
 
 
