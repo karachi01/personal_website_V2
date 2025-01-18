@@ -265,3 +265,61 @@ body{
     
    }
 }
+
+
+.project-heading{
+  text-align: center;
+  align-items: center;
+  font-weight: 400;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+
+.project-exp {
+  padding: 20px; 
+  margin: 20px auto; 
+  text-align: left; 
+  border: 1px solid #ccc; 
+  border-radius: 30px;
+  max-width: 400px; 
+  font-size: 16px; 
+  line-height: 1.5; 
+  box-shadow: 0 4px 8px rgba(1, 1, 1, 0.3); 
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.project-exp h3,
+.project-exp p {
+  margin-left: 30px;
+}
+
+
+.project-exp h3 {
+  font-weight: 500; /* Bold for the name/title */
+  margin-bottom: 10px; /* Space between elements */
+}
+
+.project-exp .project-skills {
+  font-weight: 450; /* Slightly less bold for the title */
+}
+
+.project-exp .project-summary {
+  font-weight: 300; /* Normal weight for location */
+  color: black; /* Optional: Adjust text color */
+}
+
+.project-exp .project-dates {
+  font-weight: 400; /* Lightest weight for dates */
+  color: #777; /* Optional: Muted text color */
+  font-size: 14px; /* Smaller size for dates */
+}
+
+
+.credit-symbol{
+  height: 30px;
+  width: 30px;
+  flex-shrink: 0;
+}
+
+

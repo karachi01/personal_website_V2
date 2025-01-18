@@ -21,9 +21,9 @@ const toggleDown = () => {
 
         <div className={`right-nav-bar ${menuOpen ? 'open' : ''}`}>
       <p><a href=".experience-section">Experience</a></p>
-      <p>Skills</p>
-      <p>Projects</p>
-      <p>Extracurriculars</p>
+      <p><a href="#skills-section">Skills</a></p>
+      <p><a href="#project-section">Projects</a></p>
+      
 
         </div>
 
@@ -50,7 +50,7 @@ function Introduction(){
 
 function Experience() {
   return (
-    <div className="experience-section">
+    <div id="experience-section" className="experience-section">
       <h2 className="experience-heading">Experience</h2>
       <div className="company-exp">
         <img
@@ -174,7 +174,7 @@ function Experience() {
 
 function Skills() {
   return (
-    <div className="skills-section">
+    <div id="skills-section" className="skills-section">
       <h2 className="skills-heading">Skills</h2>
 
       <div className="skills-row">
@@ -249,6 +249,74 @@ function Skills() {
   );
 }
 
+function Project(){
+  return(
+    <div id="project-section" className="project-section">
+      <h2 className="project-heading">Projects</h2>
+
+      <div className="project-exp">
+      <div>
+          <h3 className="project-name">E-commerce Project</h3>
+          <p className="project-skills">HTML5, CSS, React, JavaScript</p>
+          <p className="project-summary">
+            I recently developed a responsive e-commerce website using HTML, CSS, and React. The project features a clean, 
+            modern design with interactive components, showcasing eco-friendly products. It includes a promotional announcement
+            bar, detailed product displays, related product suggestions, and a user-friendly navigation system. The site is 
+            optimized for performance and provides a seamless shopping experience across devices.</p>
+          <p className="project-dates">July 2024 - August 2024</p>
+        </div>
+
+
+      </div>
+
+
+
+      <div className="project-exp">
+      <div>
+          <h3 className="project-name">Brooklyn Stoop Sale (Codedex Hackathon)</h3>
+          <p className="project-skills">HTML5, CSS, Bootstrap, JavaScript</p>
+          <p className="project-summary">
+  <strong>Brooklyn Stoop</strong> is a website built with HTML, CSS, and JavaScript. It features:
+  <br />
+  <br />
+  <strong>Introduction:</strong> Location details and a countdown timer to the event. The design is minimalistic and easy to navigate.
+  <br />
+  <strong>Animated Feature:</strong> Scrolling text at the top provides additional information on the location, date, and time.
+  <br />
+  <strong>More Details:</strong> View more details about the items being sold and the Google Maps location.
+  <br />
+  <strong>Footer/Contact:</strong> The phone number, email address, and social media links are displayed at the bottom of the page.
+  <br />
+  <br />
+  We focused on creating a simple yet appealing website that highlights all the information needed to prepare you for the Brooklyn Stoop Sale.
+</p>
+
+          <p className="project-dates">July 2024 - July 2024</p>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+  );
+}
+
+function Credit() {
+  return (
+    <div className="credit-section">
+      <hr />
+      <p className="credit-symbol">©</p>
+      <p>2025 - [NAME]</p>
+    </div>
+  );
+}
+
 
 
 
@@ -261,6 +329,8 @@ export default function App() {
       <Introduction />
       <Experience />
       <Skills />
+      <Project />
+      <Credit />
     </div>
   );
 }
