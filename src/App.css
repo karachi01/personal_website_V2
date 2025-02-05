@@ -103,6 +103,7 @@ body{
 }
 
 .company-exp {
+  background-color: white;
   padding: 20px; 
   margin: 20px auto; 
   text-align: left; 
@@ -111,7 +112,7 @@ body{
   max-width: 400px; 
   font-size: 16px; 
   line-height: 1.5; 
-  box-shadow: 0 4px 8px rgba(1, 1, 1, 0.3); 
+  box-shadow: none;
   display: flex;
   margin-bottom: 100px;
 }
@@ -276,6 +277,7 @@ body{
 }
 
 .project-exp {
+  background-color: white;
   padding: 20px; 
   margin: 20px auto; 
   text-align: left; 
@@ -284,7 +286,7 @@ body{
   max-width: 400px; 
   font-size: 16px; 
   line-height: 1.5; 
-  box-shadow: 0 4px 8px rgba(1, 1, 1, 0.3); 
+  box-shadow: none;
   display: flex;
   margin-bottom: 100px;
 }
