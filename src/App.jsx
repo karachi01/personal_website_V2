@@ -20,10 +20,10 @@ const toggleDown = () => {
         
 
         <div className={`right-nav-bar ${menuOpen ? 'open' : ''}`}>
-      <p><a href=".experience-section">Experience</a></p>
-      <p><a href="#skills-section">Skills</a></p>
-      <p><a href="#project-section">Projects</a></p>
-      
+          <p><a href="#experience-section">Experience</a></p>
+          <p><a href="#skills-section">Skills</a></p>
+          <p><a href="#project-section">Projects</a></p>
+          
 
         </div>
 
