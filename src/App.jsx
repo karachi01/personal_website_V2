@@ -40,8 +40,8 @@ const toggleDown = () => {
 function Introduction(){
   return(
     <div className="bio-container">
-        <h2 class ="intro-words">
-        I am a sophomore majoring in Computer Science at Boston University. I am passionate about technology and design and I’m interested in areas like software engineering (fullstack or frontend) and product management. With a strong passion for building technology that can solve meaningful problems, I am always seeking new opportunities to learn and grow. Apart from coding, i enjoy crotcheting, shopping, and watching movies and tv shows.
+        <h2 className ="intro-words">
+        I am a sophomore majoring in Computer Science at Boston University. I am passionate about technology and design and I'm interested in areas like software engineering (fullstack or frontend) and product management. With a strong passion for building technology that can solve meaningful problems, I am always seeking new opportunities to learn and grow. Apart from coding, i enjoy crotcheting, shopping, and watching movies and tv shows.
         </h2>
 
     </div>
@@ -243,7 +243,7 @@ function Skills() {
           className="company-img"
         />
         JavaScript</div>
-        <div className="skill-box">Skill 9</div> {/* Added a ninth skill to keep the layout consistent */}
+        <div className="skill-box">Skill 9</div>
       </div>
     </div>
   );
