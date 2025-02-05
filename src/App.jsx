@@ -7,6 +7,12 @@ const [menuOpen, setmenuOpen] = useState(false);
 const toggleDown = () => {
   setmenuOpen(!menuOpen);
 };
+
+// Add click handler to close menu when clicking a link
+const handleLinkClick = () => {
+  setmenuOpen(false);
+};
+
   return (
     <>
       <div className = "nav-bar">
@@ -20,9 +26,9 @@ const toggleDown = () => {
         
 
         <div className={`right-nav-bar ${menuOpen ? 'open' : ''}`}>
-          <p><a href="#experience-section">Experience</a></p>
-          <p><a href="#skills-section">Skills</a></p>
-          <p><a href="#project-section">Projects</a></p>
+          <p><a href="#experience-section" onClick={handleLinkClick}>Experience</a></p>
+          <p><a href="#skills-section" onClick={handleLinkClick}>Skills</a></p>
+          <p><a href="#project-section" onClick={handleLinkClick}>Projects</a></p>
           
 
         </div>
