@@ -1,0 +1,10 @@
+html {
+    font-size: 14px; /* Default is 16px, reduce to make it smaller */
+  }
+
+  
+.container {
+    max-width: 90ch; /* Increase width */
+    width: 100%; /* Ensure it expands */
+}
+  
